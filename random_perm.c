@@ -28,7 +28,7 @@ unsigned uniform(unsigned i,unsigned m)
 // Returns a random permutation of symbols from 0 to n-1
 void random_permutation(int n, int* perm)
 {    
-    int i,j,swap;
+    int i,j;
     for(i=0; i<n; i++) perm[i]=i;
     
     for(i=0; i<n; i++)
