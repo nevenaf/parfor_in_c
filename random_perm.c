@@ -31,12 +31,11 @@ void random_permutation(int n, int* perm)
     int i,j,swap;
     for(i=0; i<n; i++) perm[i]=i;
     
-    for(i=0; i<n-1; i++)
+    for(i=0; i<n; i++)
     {
-        j = uniform(i+1,n-1);
-        swap = perm[i];
+        j = uniform(0,i);
         perm[i] = perm[j];
-        perm[j] = swap;
+        perm[j] = i;
     }
 }
 
