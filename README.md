@@ -11,9 +11,11 @@ end
 ========
 
 **Methodology:**
-1. Making a random permutation using a variation on [Knuth shuffle](https://en.wikipedia.org/wiki/Random_permutation)
-2. Running a for loop in parallel using fork function
-3. Using pipe to send a result from a child to a parent
+
+- Making a random permutation using a [Knuth shuffle argorithm](https://en.wikipedia.org/wiki/Random_permutation)
+- Running a for loop in parallel using fork function
+- Using pipe to send a result from a child to a parent
+
 
 =========
 **Compiling:**
