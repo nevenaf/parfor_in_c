@@ -11,7 +11,7 @@ end
 ========
 
 **Methodology:**
-1. Making a random permuation using a varioation on [Knuth shuffle](https://en.wikipedia.org/wiki/Random_permutation)
+1. Making a random permutation using a variation on [Knuth shuffle](https://en.wikipedia.org/wiki/Random_permutation)
 2. Running a for loop in parallel using fork function
 3. Using pipe to send a result from a child to a parent
 
@@ -27,5 +27,4 @@ gcc -std=c99 -o random_perm  random_perm.c
 
 ======
 
-**Output:**
-![bla](https://github.com/nevenaf/parfor_in_c/screenshot_output.png)
+![**Output:**](https://github.com/nevenaf/parfor_in_c/blob/master/screenshot_output.png)
